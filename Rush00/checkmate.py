@@ -1,5 +1,4 @@
 def checkmate(board):
-    """ตรวจว่าคิงถูกรุกหรือไม่ แล้วแสดง Success, Fail หรือ Error"""
 
     if not isinstance(board, str):
         print("Error")
